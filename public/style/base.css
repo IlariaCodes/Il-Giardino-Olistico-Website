@@ -13,7 +13,6 @@ html {
     --color-gray: #496d7c;
     --color-light-gray: #608ea1;
     color: var(--color-gray);
-    text-align: center;
 }
 
 main {
@@ -27,13 +26,12 @@ section {
 
 h1 {
     text-transform: uppercase;
-    text-align: center;
     padding: 10px;
     font-size: 2rem;
 }
 
 .button-btn {
-    padding: 0.8% 1.6%;
+    padding: 6px 18px;
     border-radius: 30px;
     background-color: var(--color-gray);
     border: none;
@@ -41,6 +39,9 @@ h1 {
     color: white;
     font-weight: bold;
     font-size: 0.8rem;
+    width: 120px;
+    margin: 10px 0;
+
 }
 
 .button-btn:hover {
@@ -64,3 +65,4 @@ a {
 a:hover {
     text-decoration: underline;
 }
+

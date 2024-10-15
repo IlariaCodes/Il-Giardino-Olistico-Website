@@ -1,0 +1,51 @@
+#banner {
+    background-color: var(--color-salmon);
+    color: white;
+}
+
+.banner-content {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#h1-banner {
+    font-family: "Caveat", cursive;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: none;
+    padding: 0;
+}
+
+.banner-content h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.banner-content h4 {
+    font-weight: 200;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .padding {
+    padding: 0;
+  }
+  .banner-img img {
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+ }
+}
+
+@media only screen and (min-width: 768px) {
+    .banner-img img {
+       max-height: 500px;
+    }
+}
+
+
+    
+
+
+
+
