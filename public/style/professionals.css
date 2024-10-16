@@ -1,0 +1,58 @@
+.container {
+    width: 80%;
+    margin-bottom: 50px;
+    
+}
+
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+
+.card {
+    margin: 0.5em;
+    background-color: var(--color-blue);
+    border: none;
+}
+
+.card-body {
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.follow-professionals {
+ display: flex;
+ justify-content: center;
+ gap: 1em;
+}
+
+.follow-professionals img{
+    width: 2em;
+}
+
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 6vh;
+    height: 6vh;
+    background-color: #38a69b;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 1;
+}
+
+.carousel-control-next {
+    transform: translateX(110%);
+}
+
+.carousel-control-prev {
+    transform: translateX(-110%);
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+    opacity: .5;
+}
