@@ -1,7 +1,6 @@
 .container {
     width: 80%;
     margin-bottom: 50px;
-    
 }
 
 
@@ -17,9 +16,15 @@
     border: none;
 }
 
+
 .card-body {
     font-family: "Poppins", sans-serif;
     color: white;
+}
+
+.card-img-top {
+    max-height: 350px;
+    object-fit: cover;
 }
 
 .follow-professionals {
