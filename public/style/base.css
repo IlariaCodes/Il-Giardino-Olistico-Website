@@ -28,6 +28,7 @@ h1 {
     text-transform: uppercase;
     padding: 10px;
     font-size: 2rem;
+    text-align: center;
 }
 
 .button-btn {
@@ -75,6 +76,10 @@ a:hover {
 
 }
 
+.basic {
+    color: var(--color-gray);
+}
+
 .quote {
     background-color: var(--color-blue);
     text-align: center;
@@ -86,11 +91,15 @@ a:hover {
     font-weight: bold;
     color: white;
     padding: 2%;
+    margin: 5rem 0;
 }
 
 @media only screen and (max-width: 768px) {
     .basic-style {
         width: 80%;
+    }
+    p {
+        font-size: 12px;
     }
 }
 
