@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="./public/style/banner.css">
     <link rel="stylesheet" href="./public/style/activity.css">
     <link rel="stylesheet" href="./public/style/professionals.css">
+    <link rel="stylesheet" href="./public/style/gallery.css">
+    <link rel="stylesheet" href="./public/style/footer.css">
 </head>
 
 
@@ -129,7 +131,7 @@
   
 
       <!-- Activity -->
-      <section id="activity-section">
+      <section id="activity">
         <h1 class="basic">Activity</h1>
         
         <!-- Yoga -->
@@ -420,6 +422,48 @@
         </div>
       </section>
         
+      <!-- Gallery -->
+      <section id="gallery"> 
+        <h1 class="basic-style">Gallery</h1>
+            <div class="container">
+    
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./public/images/gallery/photo1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./public/images/gallery/phptp2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./public/images/gallery/photo3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev background-green" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next background-green" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </section>
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
 
 
             
@@ -438,7 +482,6 @@
       
 
 
-      <!-- Gallery -->
 
       <!-- Divider -->
 
@@ -448,7 +491,50 @@
     </main>
 
     <!-- Footer -->
-    <footer></footer>
+    <footer id="footer">
+      <div class="footer-section1">
+
+        <div class="address-section">
+          <h1>Find us</h1>
+          <div class="address">
+            <p>Orsini-Colonna Castle<br>
+              Piazza Castello<br>
+              Avezzano AQ<br>
+              67051</p>
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2963.7229961248186!2d13.423146875568207!3d42.027674456036884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132fe7060c8d7d7f%3A0x202f0b2bfd776c3c!2sOrsini-Colonna%20Castle!5e0!3m2!1sen!2sit!4v1728114424404!5m2!1sen!2sit"
+                width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+  
+  
+  
+        <div class="contacts-section">
+          <div class="contacts">
+            <h1>Contacts</h1>
+            <ul>
+              <li> CALL: 0563 817350</li>
+              <li> EMAIL:<a href="mailto:info@tams.com">info@tams.com</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <div class="footer-section2">
+        <div class="logo-container">
+          <hr class="line">
+          <a class="logo-a" href="https://www.facebook.com/ilgiardinoolisticoavezzano/photos/" target="_blank"><img
+              src="./public/images/logos/facebook.png" alt="facebook logo" class="logo-social"></a>
+          <a class="logo-a" href="https://www.instagram.com/il_giardino_olistico_/" target="_blank"><img
+              src="./public/images/logos/instagram.png" alt="instagram logo" class="logo-social"></a>
+          <hr class="line">
+        </div>
+        <p id="copyright">@copyright</p>
+      </div>
+    </footer>
     
 </body>
 </html>
