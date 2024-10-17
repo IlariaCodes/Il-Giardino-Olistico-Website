@@ -20,6 +20,7 @@
 .card-body {
     font-family: "Poppins", sans-serif;
     color: white;
+    text-align: center;
 }
 
 .card-img-top {
@@ -38,6 +39,23 @@
 }
 
 
+
+.container-professionals-sm {
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .container-lg{
+        display: none;
+    }
+    .container-professionals-sm {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
 .carousel-control-next,
 .carousel-control-prev {
     width: 6vh;
@@ -62,8 +80,5 @@
     opacity: .5;
 }
 
-@media only screen and (max-width: 576px) {
-    .container-lg{
-        display: none;
-    }
+
 }
