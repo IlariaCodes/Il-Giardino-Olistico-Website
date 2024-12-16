@@ -5,6 +5,8 @@ header {
     z-index: 10000;
 }
 
+
+
 .top-banner {
     background-color: var(--color-green);
     height: 60%;
@@ -15,7 +17,8 @@ header {
 }
 
 #logo {
-    height: 60%;
+    height: 4em;
+    width: auto;
 }
 
 .nav-bar-laptop {
