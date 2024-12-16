@@ -107,5 +107,13 @@ aside {
     #side-drawer.hidden {
         left:-500px;
     }
+    .side-drawer-nav {
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
 
 }
