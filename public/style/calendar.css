@@ -42,3 +42,13 @@ h4 {
 .blue {
     background-color: var(--color-blue);
 }
+
+@media only screen and (max-width: 768px) {
+    h4 {
+        font-size: 16px;
+    }
+    .offcanvas {
+        --bs-offcanvas-width: 100%;
+    }
+
+}
