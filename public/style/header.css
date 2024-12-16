@@ -75,6 +75,8 @@ aside {
         position: fixed;
         top: 0;
         left: 0;
+        z-index: 20000;
+        top:70px
     }
         
     
@@ -96,6 +98,14 @@ aside {
     
     #side-drawer:target {
         display: block;
+    }
+
+    #side-drawer.visible {
+        left:0;
+    }
+
+    #side-drawer.hidden {
+        left:-500px;
     }
 
 }
