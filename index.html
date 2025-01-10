@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="./public/style/calendar.css">
     <link rel="stylesheet" href="./public/style/gallery.css">
     <link rel="stylesheet" href="./public/style/footer.css">
+   
     <!-- Link to js file -->
      <script src="./script.js" defer></script>
 </head>
@@ -36,30 +37,31 @@
 <body>
     
     <!-- Header -->
+
     <header>
         <div class="top-banner">
             <a href="#banner"><img src="./public/images/logos/logo.png" alt="logo Il Giardino Olistico" id="logo"></a> 
             <button class="button-btn" onclick="openPDF()">Download Calendar</button>
+            
             <!-- Hamburger button -->
             <a href="#side-drawer" class="menu-btn" id="hamburgerMenu">
               <img src="./public/images/logos/hamburger-menu.png" alt="Hamburger menu button">
             </a>
-          </div>
-          <!-- Navigation laptop-->
-          <div class="nav-bar-laptop">
-            <ul>
-              <li><a href="#overview">Overview</a></li>
-              <li><a href="#activity">Activity</a></li>
-              <li><a href="#calendar">Calendar</a></li>
-              <li><a href="#professionals">Professionals</a></li>
-              <li><a href="#gallery">Gallery</a></li>
-              <li><a href="#footer">Contacts</a></li>
-              
-            </ul>
-          </div>
-         
+        </div>
+          
+        <!-- Navigation laptop-->
+        <div class="nav-bar-laptop">
+          <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#activity">Activity</a></li>
+            <li><a href="#calendar">Calendar</a></li>
+            <li><a href="#professionals">Professionals</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#footer">Contacts</a></li>
+          </ul>
+        </div>
     </header>
-
+              
     <!-- Aside smaller screen-->
     <aside id="side-drawer">
         <nav class="side-drawer-nav">
@@ -74,10 +76,13 @@
             <button class="button-btn" onclick="openPDF()">Download Calendar</button>
           </nav>
     </aside>
+         
+
 
             
 
-   
+    <!-- Main -->
+
     <main>
       <!-- Banner section -->
        <section id="banner">
@@ -85,7 +90,6 @@
           <div class="row align-items-center">
             <div class="col-md-6 col-12 text-center text-md-start">
               <div class="banner-content">
-                
                 <h2>The only Wellness Festival in Abruzzo</h2>
                 <h3>7-8 September</h3>
                 <h3>Avezzano</h3>
@@ -101,11 +105,7 @@
           </div>
         </div>
       </section>
-
-
-
-
-
+                
 
       <!-- Overview section -->
       <section id="overview" class="basic-style">
@@ -130,9 +130,9 @@
         <h3>"Health is a state of complete harmony of the body, mind, and spirit."
           — B.K.S. Iyengar</h3>
       </section>
-  
 
-      <!-- Activity -->
+      
+      <!-- Activity section-->
       <section id="activity">
         <h1 class="basic">Activity</h1>
         
@@ -160,7 +160,7 @@
               </div>
           </div>
          </div>
-         
+
          <!-- Meditation -->
          <div class="row align-items-start costum-margin-top">
           <div class="col-sm-5 offset-sm-1 col-12 order-2 order-sm-1 text-sm-start">
@@ -237,8 +237,7 @@
         </div>
       </section>
 
- 
-      
+  
       <!-- Calendar -->
       <section id="calendar">
         <div class="calendar-content">
@@ -250,6 +249,7 @@
             <br><strong>Check our calendar for more details and to see which activities require booking.</strong></p>
         </div>
         <div class="calendar-btn">
+
           <!--Saturday 7 -->
           <button class="button-btn" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling1" aria-controls="offcanvasScrolling">Saturday 7</button>
           <div class="offcanvas offcanvas-start top"  data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling1" aria-labelledby="offcanvasScrollingLabel">
@@ -305,7 +305,7 @@
               </ul>
             </div>
           </div>
-
+         
           <!-- Sunday 8 -->
           <button class="button-btn" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling2" aria-controls="offcanvasScrolling">Sunday 8</button>
           <div class="offcanvas offcanvas-start top"  data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling2" aria-labelledby="offcanvasScrollingLabel">
@@ -414,22 +414,9 @@
               </ul>
             </div>
           </div>
-              
-
-          
-
-              
-          
-
-          
-          
         </div>
-     </section>
-
-      
-        
-
-        
+      </section>
+              
 
       <!-- Professionals -->
       <section class="professionals-section" id="professionals">
@@ -444,6 +431,7 @@
         <div class="container-lg">
           <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
+
               <!-- First 3 cards -->
               <div class="carousel-item active">
                 <div class="cards-wrapper">
@@ -482,6 +470,7 @@
                   </div>
                 </div>
               </div> 
+ 
               <!-- Second 3 cards -->
               <div class="carousel-item">
                 <div class="cards-wrapper">
@@ -529,78 +518,76 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
-  
-          </div>
-        </div>
-
-        <div class="container-professionals-sm">
-          <div id="carouselExample2" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="cards-wrapper">
-                  <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="./public/images/professionals/ale-romo-TdrUCJU6VFs-unsplash.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Maura Di Bartolo</h5>
-                      <p class="card-text">Hata Raja Yoga teacher</p>
-                      <div class="follow-professionals">
-                        <a href=""><img src="./public/images/logos/facebook.png" alt=""></a>
-                        <a href=""><img src="./public/images/logos/instagram.png" alt=""></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="cards-wrapper">
-                  <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="./public/images/professionals/alexandra-tran-d0iASNy8p50-unsplash.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Maura Di Bartolo</h5>
-                      <p class="card-text">Hata Raja Yoga teacher</p>
-                      <div class="follow-professionals">
-                        <a href=""><img src="./public/images/logos/facebook.png" alt=""></a>
-                        <a href=""><img src="./public/images/logos/instagram.png" alt=""></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="cards-wrapper">
-                  <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="./public/images/professionals/christian-buehner-DItYlc26zVI-unsplash.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Maura Di Bartolo</h5>
-                      <p class="card-text">Hata Raja Yoga teacher</p>
-                      <div class="follow-professionals">
-                        <a href=""><img src="./public/images/logos/facebook.png" alt=""></a>
-                        <a href=""><img src="./public/images/logos/instagram.png" alt=""></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
-        </div>
+          <div class="container-professionals-sm">
+            <div id="carouselExample2" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="cards-wrapper">
+                    <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="./public/images/professionals/ale-romo-TdrUCJU6VFs-unsplash.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Maura Di Bartolo</h5>
+                        <p class="card-text">Hata Raja Yoga teacher</p>
+                        <div class="follow-professionals">
+                          <a href=""><img src="./public/images/logos/facebook.png" alt=""></a>
+                          <a href=""><img src="./public/images/logos/instagram.png" alt=""></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="cards-wrapper">
+                    <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="./public/images/professionals/alexandra-tran-d0iASNy8p50-unsplash.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Maura Di Bartolo</h5>
+                        <p class="card-text">Hata Raja Yoga teacher</p>
+                        <div class="follow-professionals">
+                          <a href=""><img src="./public/images/logos/facebook.png" alt=""></a>
+                          <a href=""><img src="./public/images/logos/instagram.png" alt=""></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="cards-wrapper">
+                    <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="./public/images/professionals/christian-buehner-DItYlc26zVI-unsplash.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Maura Di Bartolo</h5>
+                        <p class="card-text">Hata Raja Yoga teacher</p>
+                        <div class="follow-professionals">
+                          <a href=""><img src="./public/images/logos/facebook.png" alt=""></a>
+                          <a href=""><img src="./public/images/logos/instagram.png" alt=""></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
       </section>
       
-      
-           
+       
       <!-- Divider -->
       <section class="quote" id="color-salmon">
         <h3>"When mind, body, and spirit are in harmony, happiness is the natural result." — Deepak Chopra</h3>
       </section> 
-  
+
+      
       <!-- Gallery -->
       <section id="gallery"> 
         <h1 class="basic-style">Gallery</h1>
@@ -632,6 +619,73 @@
               </div>
             </div>
       </section>
+    </main>
+
+    
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer-section1">
+        <div class="address-section">
+          <h1>Find us</h1>
+          <div class="address">
+            <p>Orsini-Colonna Castle<br>
+              Piazza Castello<br>
+              Avezzano AQ<br>
+              67051</p>
+            <!--Link to map-->
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2963.7229961248186!2d13.423146875568207!3d42.027674456036884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132fe7060c8d7d7f%3A0x202f0b2bfd776c3c!2sOrsini-Colonna%20Castle!5e0!3m2!1sen!2sit!4v1728114424404!5m2!1sen!2sit"
+                 style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="contacts-section">
+          <div class="contacts">
+            <h1>Contacts</h1>
+            <ul>
+              <li> CALL: 0563 817350</li>
+              <li> EMAIL:<a href="mailto:info@tams.com">info@tams.com</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-section2">
+        <div class="logo-container">
+          <hr class="line">
+          <a class="logo-a" href="https://www.facebook.com/ilgiardinoolisticoavezzano/photos/" target="_blank"><img
+              src="./public/images/logos/facebook.png" alt="facebook logo" class="logo-social"></a>
+          <a class="logo-a" href="https://www.instagram.com/il_giardino_olistico_/" target="_blank"><img
+              src="./public/images/logos/instagram.png" alt="instagram logo" class="logo-social"></a>
+          <hr class="line">
+        </div>
+        <p id="copyright">@copyright</p>
+      </div>
+    </footer>
+
+  </body>
+  </html>
+
+          
+
+              
+          
+
+          
+          
+
+      
+        
+
+        
+
+  
+
+      
+      
+           
+  
     
                   
               
@@ -663,58 +717,12 @@
 
 
 
-      <!-- Divider -->
-
-      <!-- Reviews -->
+      
 
 
-    </main>
 
-    <!-- Footer -->
-    <footer id="footer">
-      <div class="footer-section1">
-
-        <div class="address-section">
-          <h1>Find us</h1>
-          <div class="address">
-            <p>Orsini-Colonna Castle<br>
-              Piazza Castello<br>
-              Avezzano AQ<br>
-              67051</p>
-            <div class="map">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2963.7229961248186!2d13.423146875568207!3d42.027674456036884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132fe7060c8d7d7f%3A0x202f0b2bfd776c3c!2sOrsini-Colonna%20Castle!5e0!3m2!1sen!2sit!4v1728114424404!5m2!1sen!2sit"
-                 style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-          </div>
-        </div>
   
   
   
-        <div class="contacts-section">
-          <div class="contacts">
-            <h1>Contacts</h1>
-            <ul>
-              <li> CALL: 0563 817350</li>
-              <li> EMAIL:<a href="mailto:info@tams.com">info@tams.com</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
   
-      <div class="footer-section2">
-        <div class="logo-container">
-          <hr class="line">
-          <a class="logo-a" href="https://www.facebook.com/ilgiardinoolisticoavezzano/photos/" target="_blank"><img
-              src="./public/images/logos/facebook.png" alt="facebook logo" class="logo-social"></a>
-          <a class="logo-a" href="https://www.instagram.com/il_giardino_olistico_/" target="_blank"><img
-              src="./public/images/logos/instagram.png" alt="instagram logo" class="logo-social"></a>
-          <hr class="line">
-        </div>
-        <p id="copyright">@copyright</p>
-      </div>
-    </footer>
     
-</body>
-</html>

@@ -1,18 +1,13 @@
-
-
-
 .cards-wrapper {
     display: flex;
     justify-content: center;
 }
-
 
 .card {
     margin: 0.5em;
     background-color: var(--color-blue);
     border: none;
 }
-
 
 .card-body {
     font-family: "Poppins", sans-serif;
@@ -35,11 +30,10 @@
     width: 2em;
 }
 
-
-
 .container-professionals-sm {
     display: none;
 }
+
 
 @media only screen and (max-width: 1024px) {
     .container-lg{
@@ -49,33 +43,39 @@
         display: flex;
         justify-content: center;
     }
-
 }
+
 
 @media only screen and (min-width: 1024px) {
-.carousel-control-next,
-.carousel-control-prev {
-    width: 6vh;
-    height: 6vh;
-    background-color: #38a69b;
-    border-radius: 50%;
-    top: 50%;
-    transform: translateY(-50%);
-    opacity: 1;
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 6vh;
+        height: 6vh;
+        background-color: #38a69b;
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+        opacity: 1;
+    }
+
+    .carousel-control-next {
+        transform: translateX(110%);
+    }
+    
+    .carousel-control-prev {
+        transform: translateX(-110%);
+    }
+
+    .carousel-control-next:hover,
+    .carousel-control-prev:hover {
+        opacity: .5;
+    }
 }
 
-.carousel-control-next {
-    transform: translateX(110%);
-}
-
-.carousel-control-prev {
-    transform: translateX(-110%);
-}
-
-.carousel-control-next:hover,
-.carousel-control-prev:hover {
-    opacity: .5;
-}
 
 
-}
+
+
+
+
+

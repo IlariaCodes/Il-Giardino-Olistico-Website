@@ -36,8 +36,6 @@ h1 {
     text-transform: uppercase; 
 }
 
-
-
 .button-btn {
     padding: 6px 18px;
     border-radius: 30px;
@@ -124,6 +122,8 @@ a:hover {
     margin-top: 30px;
 }
 
+
+
 @media only screen and (max-width: 768px) {
     .basic-style {
         width: 80%;
@@ -132,6 +132,7 @@ a:hover {
         font-size: 12px;
     }
 }
+
 
 @media only screen and (max-width: 480px) {
     .basic-style {
@@ -143,7 +144,6 @@ a:hover {
         font-size: 20px;
     }
 
-
     p {
         font-size: 12px;
     }
@@ -153,3 +153,4 @@ a:hover {
         padding: 0 12px;
     }
 }
+
