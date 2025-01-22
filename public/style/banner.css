@@ -1,24 +1,22 @@
 #banner {
-    background-color: var(--color-salmon);
-    color: white;
-    margin-bottom: 50px;
+  background-color: var(--color-salmon);
+  color: white;
+  margin-bottom: 50px;
 }
 
 .banner-content {
-    padding-top: 20px;
-    padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
-
 .banner-content h2 {
-    font-weight: bold;
-    text-transform: uppercase;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .banner-content h4 {
-    font-weight: 200;
+  font-weight: 200;
 }
-
 
 @media only screen and (max-width: 768px) {
   .padding {
@@ -28,27 +26,19 @@
     max-height: 300px;
     width: 100%;
     object-fit: cover;
- }
-
+  }
+  .banner-content .h4-center {
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 480px) {
-    .banner-img img {
-       max-height: 500px;
-    }
-
+  .banner-img img {
+    max-height: 500px;
+  }
 }
-
-    
-
-
- 
-
-   
-
-
-    
-
-
-
-
+@media only screen and (max-width: 480px) {
+  .banner-content .h4-center {
+    text-align: center;
+  }
+}
