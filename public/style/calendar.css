@@ -1,54 +1,62 @@
 .top {
-    z-index: 10001;
-    color: white;
+  z-index: 10001;
+  color: white;
 }
 
 h4 {
-    text-align: left;
-    font-family: "Poppins", sans-serif;
-    color: white;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  color: white;
 }
 
 .offcanvas {
-    --bs-offcanvas-width: 600px;
-    background-color: var(--color-green);
-
+  --bs-offcanvas-width: 600px;
+  background-color: var(--color-green);
 }
 
 .left {
-    text-align: left;
+  text-align: left;
 }
 
 .dots {
-    list-style: disc;
-    color: white;
+  list-style: disc;
+  color: white;
 }
 
 .offcanvas-header {
-    background-color: var(--color-green);
+  background-color: var(--color-green);
 }
 
 #offcanvasScrolling2 {
-    background-color: var(--color-salmon);
+  background-color: var(--color-salmon);
 }
 
 .salmon {
-    background-color: var(--color-salmon);
+  background-color: var(--color-salmon);
 }
 
 #offcanvasScrolling3 {
-    background-color: var(--color-blue);
+  background-color: var(--color-blue);
 }
 .blue {
-    background-color: var(--color-blue);
+  background-color: var(--color-blue);
 }
 
-
 @media only screen and (max-width: 768px) {
-    h4 {
-        font-size: 16px;
-    }
-    .offcanvas {
-        --bs-offcanvas-width: 100%;
-    }
+  h4 {
+    font-size: 16px;
+  }
+  .offcanvas {
+    --bs-offcanvas-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .calendar-btn {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    align-items: center;
+  }
 }

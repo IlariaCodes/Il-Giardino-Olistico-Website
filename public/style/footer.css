@@ -1,84 +1,96 @@
 footer {
-    position: relative;
-    top: 120px;
-    scroll-margin-top: 120px;
-    background-color: var(--color-green);
-    color: white;
-    margin-top: 50px;
+  position: relative;
+  top: 120px;
+  scroll-margin-top: 120px;
+  background-color: var(--color-green);
+  color: white;
+  margin-top: 50px;
 }
 
 footer h1 {
-    padding: 20px;
+  padding: 20px;
 }
 
 .address-section,
 .contacts-section {
-    width: 50%;
-    text-align: center;
+  width: 50%;
+  text-align: center;
 }
 
 .footer-section1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .map {
-    padding: 3%;
+  padding: 3%;
 }
 
 .logo-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .logo-social {
-    width:  100%;
+  width: 100%;
 }
 
 .logo-a {
-    width: 6%;
+  width: 6%;
 }
 
 .logo-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
 }
 
 .line {
-    flex-grow: 1;
-    border: none;
-    border-top: 1px solid white;
+  flex-grow: 1;
+  border: none;
+  border-top: 1px solid white;
 }
 
 #copyright {
-    background-color: var(--color-blue);
-    padding: 5px;
-    text-align: left;
+  background-color: var(--color-blue);
+  padding: 5px;
+  text-align: left;
 }
 .map {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-  }
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
 
-  .map iframe {
-    position: absolute;
-    margin: 0 auto;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-  }
+.map iframe {
+  position: absolute;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+footer ul {
+  padding-left: 0;
+}
 
 @media only screen and (max-width: 768px) {
-    .logo-social {
-        width: 250%;
-    }
+  .logo-social {
+    width: 250%;
+  }
 }
-  
+
+@media only screen and (max-width: 480px) {
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+}
