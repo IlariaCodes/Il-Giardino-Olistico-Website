@@ -1,21 +1,23 @@
 .costum-margin-top {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .align-items-start {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
-
 @media only screen and (max-width: 576px) {
-    .sm-no-padding {
-        padding: 0;
-    }
-    .sm-text-center {
-        text-align: center;
-        margin-top: 10px;
-    }
+  .sm-no-padding {
+    padding: 0;
+  }
+  .sm-text-center {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
 
-
-
+@media only screen and (max-width: 1090px) {
+  .basic {
+    margin-top: 0;
+  }
 }
