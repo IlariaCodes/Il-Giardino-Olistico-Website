@@ -36,7 +36,7 @@ Fornisce informazioni complete sull'evento, inclusi il programma, le attività p
 - Git
 
 ### Altri programmi utilizzati
-- Flaticon per loghi dei social
+- Flaticon utilizzato per i loghi dei social network
 
 
 ## Istallazione e utilizzo 🛠️
