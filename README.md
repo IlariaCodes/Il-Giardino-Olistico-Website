@@ -28,8 +28,8 @@ Fornisce informazioni complete sull'evento, inclusi il programma, le attività p
 
 ### Librerie 
 Bootstrap:
-      - Caroselli: per mostrare le immagini dei festival precedenti e le informazioni sui professionisti.
-      - Off-Canvas: per mostare il calendario per ogni sigolo giorno del festival.
+      - **Caroselli**: per mostrare le immagini dei festival precedenti e le informazioni sui professionisti.
+      - **Off-Canvas**: per mostare il calendario per ogni sigolo giorno del festival.
   
 ### Ambiente di Sviluppo
 - VSCode
