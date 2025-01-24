@@ -27,9 +27,9 @@ Fornisce informazioni complete sull'evento, inclusi il programma, le attività p
 - **JS**:  per implementare la logica necessaria al download del calendario e per la funzionalità del menu a scomparsa (hamburger menu).
 
 ### Librerie 
-Bootstrap:
-      - **Caroselli**: per mostrare le immagini dei festival precedenti e le informazioni sui professionisti.
-      - **Off-Canvas**: per mostare il calendario per ogni sigolo giorno del festival.
+- Bootstrap:
+  - **Caroselli**: per mostrare le immagini dei festival precedenti e le informazioni sui professionisti.
+  - **Off-Canvas**: per mostare il calendario per ogni sigolo giorno del festival.
   
 ### Ambiente di Sviluppo
 - VSCode
