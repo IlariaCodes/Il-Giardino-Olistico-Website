@@ -41,9 +41,12 @@ Fornisce informazioni complete sull'evento, inclusi il programma, le attività p
 
 ## Istallazione e utilizzo 🛠️
 1. Clona la repository:
+   
    `git clone <repository-url>`
 2. Apri il prgetto con VSCode.
+   
    Naviga nella cartella del progetto e aprilo con VSCode.
 3. Run localmente:
+ 
    Apri il file index.html nel tuo browser preferito per visualizzare il sito.
 
